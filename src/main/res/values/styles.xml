@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <!--Personalização Marvel Comic Imagens-->
+    <style name="PSimageGeral">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:adjustViewBounds">true</item>
+
+        <!--<item name="backgroundImage">@drawable/la_byanka</item>-->
+        <item name="roundAsCircle">false</item>
+        <item name="roundingBorderColor">@color/colorPrimary</item>
+        <item name="roundingBorderWidth">1dp</item>
+        <item name="progressBarAutoRotateInterval">1000</item>
+        <item name="progressBarImageScaleType">centerInside</item>
+        <!--<item name="progressBarImage">@drawable/ic_loop_load_24px</item>-->
+
+        <item name="failureImageScaleType">centerCrop</item>
+        <!--<item name="failureImage">@drawable/ic_error_24px</item>-->
+
+        <item name="placeholderImageScaleType">fitCenter</item>
+        <item name="actualImageScaleType">focusCrop</item>
+
+        <item name="fadeDuration">300</item>
+    </style>
+    <style name="PSstyleAvatar">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="layout_collapseParallaxMultiplier">0.7</item>
+
+        <!--<item name="backgroundImage">@drawable/ic_launcher_background</item>-->
+        <item name="roundAsCircle">true</item>
+        <item name="roundBottomEnd">false</item>
+        <item name="roundBottomLeft">true</item>
+        <item name="roundBottomRight">false</item>
+        <item name="roundBottomStart">false</item>
+        <item name="roundTopRight">false</item>
+        <item name="roundingBorderColor">@color/colorPrimaryDark</item>
+        <item name="roundingBorderWidth">2dp</item>
+        <item name="progressBarAutoRotateInterval">1000</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+
+        <item name="progressBarImageScaleType">centerInside</item>
+        <item name="progressBarImage">@drawable/ic_launcher_foreground</item>
+
+        <!--<item name="failureImageScaleType">centerInside</item>-->
+        <!--<item name="failureImage">@drawable/com_accountkit_error</item>-->
+
+        <item name="placeholderImageScaleType">fitCenter</item>
+        <item name="actualImageScaleType">focusCrop</item>
+        <!--<item name="placeholderImage">@color/colorPrimary</item>-->
+
+        <item name="fadeDuration">300</item>
+    </style>
+    <style name="PScabecalho">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:adjustViewBounds">true</item>
+
+        <item name="roundAsCircle">true</item>
+        <item name="roundBottomEnd">false</item>
+        <item name="roundBottomLeft">false</item>
+        <item name="roundBottomRight">false</item>
+        <item name="roundBottomStart">false</item>
+        <item name="roundTopRight">false</item>
+        <item name="roundingBorderColor">@color/colorPrimary</item>
+        <item name="roundingBorderWidth">2dp</item>
+        <item name="progressBarAutoRotateInterval">1000</item>
+
+        <!--<item name="backgroundImage">@drawable/wb_usuario</item>-->
+
+        <item name="progressBarImageScaleType">centerInside</item>
+        <!--<item name="progressBarImage">@drawable/ic_loop_load_24px</item>-->
+
+        <item name="failureImageScaleType">centerInside</item>
+        <!--<item name="failureImage">@drawable/ic_error_24px</item>-->
+
+        <item name="placeholderImageScaleType">fitCenter</item>
+        <item name="actualImageScaleType">focusCrop</item>
+
+        <item name="fadeDuration">300</item>
+    </style>
+
+
+    <!--Padrões TextView-->
+    <style name="STtxvTitulo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorTextTitulo</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">coming_soon</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="STtxvDescricao">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorTextSubTitulo</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:fontFamily">coming_soon</item>
+    </style>
+
+</resources>

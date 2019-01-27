@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackgroundBorderless">
+    <!-- android:background="?attr/selectableItemBackgroundBorderless" will cause this Custom View to make ripple effect -->
+
+    <LinearLayout
+        android:id="@+id/conversation_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/abc_action_bar_up_description"
+        android:orientation="horizontal">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdvMenIcone"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:background="@mipmap/ic_launcher_marvel_teste_round"
+            android:src="@mipmap/ic_launcher_marvel_teste_round"
+            android:theme="@style/PScabecalho"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/conversation_image"
+        android:orientation="vertical"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="0.0dip"
+        android:paddingRight="0.0dip"
+        android:paddingBottom="2.0dip">
+
+
+        <TextView
+            android:id="@+id/txvActionBarTituloConversa"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.6"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textSize="16sp"
+            style="@style/STtxvTitulo"/>
+
+        <TextView
+            android:id="@+id/txvActionBarSubTituloConversa"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="0.4"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="last seen 1 hour ago"
+            android:textSize="10sp"
+            android:visibility="visible"
+            style="@style/STtxvDescricao"/>
+
+    </LinearLayout>
+</RelativeLayout>

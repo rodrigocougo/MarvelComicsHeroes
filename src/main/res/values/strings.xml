@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Marvel Comics Herois</string>
+    <string name="title_item_detail">Detalhe do Herói</string>
+
+    <!--Padrão de conteudo-->
+    <string name="action_menu_item_lista_01">Item Detail</string>
+
+    <!--Sem conexão-->
+    <string name="sem_conexao_texto_1">Ops, você perdeu a conexão \n este aplicativo necessita de internet!</string>
+    <string name="sem_conexao_texto_2">Este é um exemplo de controle da \n conexão com um modelo de LiveData.</string>
+
+</resources>
